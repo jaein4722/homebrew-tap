@@ -5,7 +5,7 @@ Homebrew tap for distributing GPUUsage as a macOS cask.
 ## Install
 
 ```bash
-brew tap jaein4722/homebrew_tap
+brew tap jaein4722/tap
 brew install --cask gpuusage
 ```
 
