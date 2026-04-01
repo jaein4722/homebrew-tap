@@ -1,6 +1,6 @@
 cask "gpuusage" do
-  version "0.3.2"
-  sha256 "73db3eac6712e5c97e9dc3266cb75245033a24292da0ae5473792094e900d6a0"
+  version "0.3.3"
+  sha256 "ea8f04e59d36b9c7cdf56ee6522e5c4aa23beb433045ed8b5160711910e89802"
 
   url "https://github.com/jaein4722/GPUUsage/releases/download/v#{version}/GPUUsage-#{version}.dmg"
   name "GPUUsage"
