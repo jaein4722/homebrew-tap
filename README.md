@@ -1,25 +1,24 @@
 # homebrew-tap
 
-Homebrew tap for distributing GPUUsage as a macOS cask.
+Homebrew tap for distributing NVBeacon as a macOS cask.
 
 ## Install
 
 ```bash
-brew tap jaein4722/tap
-brew install --cask gpuusage
+brew install --cask jaein4722/tap/nvbeacon
 ```
 
 ## Layout
 
-- `Casks/gpuusage.rb`: Homebrew cask definition for GPUUsage
+- `Casks/nvbeacon.rb`: Homebrew cask definition for NVBeacon
 
 ## Release Update
 
-When a new GitHub Release is published from the main GPUUsage repository:
+When a new GitHub Release is published from the main NVBeacon repository:
 
-1. `GPUUsage` sends a `repository_dispatch` event to this repository
+1. `NVBeacon` sends a `repository_dispatch` event to this repository
 2. This repository downloads the release DMG and calculates the new `sha256`
-3. `Casks/gpuusage.rb` is updated automatically
+3. `Casks/nvbeacon.rb` is updated automatically
 4. GitHub Actions commits and pushes the tap update
 
 ## Manual Trigger
