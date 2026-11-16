@@ -1,6 +1,6 @@
 cask "nvbeacon" do
-  version "0.8.0"
-  sha256 "f7addcecf7ec451b0cf533acaf52849ebea889bad2f006b134b32e5ad29deaa0"
+  version "0.8.1"
+  sha256 "00dc0752ad3c081701c9fab5e81e1e54bda323c74a9f11c6d9a6cdc5c414f355"
 
   url "https://github.com/jaein4722/NVBeacon/releases/download/v#{version}/NVBeacon-#{version}.dmg"
   name "NVBeacon"
